@@ -2,8 +2,61 @@
 <window>
 	<!-- videoosd -->
 	<defaultcontrol always="true">1</defaultcontrol>
+			<animation type="WindowOpen">
+				<effect type="zoom" start="90" end="100" center="auto" tween="back" easing="out" time="200"/>
+				<effect type="fade" start="0" end="100" time="200"/>
+			</animation>
 
 	<controls>
+
+		<!-- Info -->
+		<control type="group">
+			<left>150</left>
+			<top>75</top>
+			<width>1620</width>
+			<height>234</height>
+
+			<!-- Background -->
+			<control type="image">
+				<width>1620</width>
+				<height>234</height>
+				<texture border="1">osd/OSDBack.png</texture>
+			</control>
+
+			<!-- Title -->
+			<control type="label">
+				<left>20</left>
+				<top>14</top>
+				<width>1280</width>
+				<height>48</height>
+				<font>Font48</font>
+				<textcolor>DialogColor1</textcolor>
+				<label>$VAR[VideoPlayerTitle]</label>
+			</control>
+
+			<!-- Plot -->
+			<control type="textbox">
+				<left>20</left>
+				<top>87</top>
+				<width>1280</width>
+				<height>118</height>
+				<label>$VAR[VideoPlayerPlot]</label>
+				<font>Font25</font>
+				<textcolor>DialogColor2</textcolor>
+				<autoscroll delay="5000" time="1400" repeat="10000">true</autoscroll>
+			</control>
+
+			<!-- Icon -->
+			<control type="image">
+				<right>20</right>
+				<top>20</top>
+				<width>234</width>
+				<height>194</height>
+				<aspectratio align="right">keep</aspectratio>
+				<texture>$VAR[VideoPlayerIcon]</texture>
+			</control>
+
+		</control>
 
 		<!-- Player forwarding/rewinding -->
 		<control type="group">

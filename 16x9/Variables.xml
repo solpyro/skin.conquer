@@ -170,6 +170,10 @@
 		<value>$INFO[Player.Title]</value>
 	</variable>
 
+	<variable name="VideoPlayerIcon">
+		<value>$INFO[VideoPlayer.Cover]</value>
+	</variable>
+
 	<variable name="StatusOverlay">
 		<value condition="ListItem.IsResumable | [[Container.Content(tvshows) | Container.Content(seasons)] + IntegerGreaterThan(ListItem.Property(WatchedEpisodes),0) + IntegerGreaterThan(ListItem.Property(UnWatchedEpisodes),0)]">views/OverlayResumable.png</value>
 		<value condition="StringCompare(ListItem.Overlay,OverlayWatched.png)">views/OverlayWatched.png</value>
