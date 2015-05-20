@@ -1,3 +1,7 @@
+[B]3.0.0[/B]
+
+- Branched to Conquer to add features for Solpyro & Pete
+
 [B]2.3.0[/B]
 
 - Fixed spacing issues with PVR timers

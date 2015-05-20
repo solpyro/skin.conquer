@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon
 	id="skin.conquer"
-	version="1.0.0"
+	version="3.0.0"
 	name="Conquer"
 	provider-name="Solpyro">
 	<requires>
