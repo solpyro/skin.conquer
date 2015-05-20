@@ -9,8 +9,8 @@
 	<color name="OverlayColorFO">ffffffff</color>
 	<color name="OverlayColorNF">55f1f1f1</color>
 	<color name="SelectedColor">FFEB9E17</color>
-	<color name="FanartDiffuse">22f1f1f1</color>
-	<color name="DiffusePosterNF">58ffffff</color>
+	<color name="FanartDiffuse">66f1f1f1</color>
+	<color name="DiffusePosterNF">78ffffff</color>
 	<color name="HomeNF">44ffffff</color>
 	
 	<!-- Dialog colors -->

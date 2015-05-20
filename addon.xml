@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon
-	id="skin.conq"
-	version="2.3.0"
-	name="Conq"
-	provider-name="Hitcher">
+	id="skin.conquer"
+	version="1.0.0"
+	name="Conquer"
+	provider-name="Solpyro">
 	<requires>
 		<import addon="xbmc.gui" version="5.3.0"/>
 		<import addon="script.favourites" version="5.0.2"/>
@@ -15,7 +15,7 @@
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<platform>all</platform>
-		<summary lang="en">A simple, clean and light skin</summary>
+		<summary lang="en">A simple, clean and light skin - Conq Revisited</summary>
 		<disclaimer lang="en">Mouse and Touch device not supported</disclaimer>
 		<description lang="en">Original design: Bolteh[CR]Code: Hitcher[CR]Thanks to 'Black for the icons</description>
 	</extension>
